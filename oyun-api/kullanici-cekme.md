@@ -1,6 +1,6 @@
 # Kullanıcı Çekme
 
-{% api-method method="get" host="https://furtsy.wtf/api/oyun/oyunid/kullanicilar/ip/port" path="" %}
+{% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/kullanicilar/ip/port" %}
 {% api-method-summary %}
 Kullanıcıları Çekme
 {% endapi-method-summary %}
