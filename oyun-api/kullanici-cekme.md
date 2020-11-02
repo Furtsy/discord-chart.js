@@ -25,7 +25,7 @@ oyuncuları gösterir
 {% endapi-method-response-example-description %}
 
 ```
-
+{"Oyuncular":"oyuncu1,oyuncu2"}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
