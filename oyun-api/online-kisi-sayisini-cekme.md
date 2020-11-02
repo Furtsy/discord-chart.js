@@ -46,5 +46,17 @@ Eğer bilgiler yanlışsa veya çekemiyorsa.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+### Örnek Kullanım
+
+```text
+let ip = ''//ip 
+let port = ''//port 
+let oyunid = ''
+require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/online/${ip}/${port}`, async function (err, resp, body) { 
+body = JSON.parse(body); 
+console.log("Online Kişi:" + `${body.Online}/${body.Maks}`)
+})
+```
+
 
 
