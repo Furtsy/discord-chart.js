@@ -6,7 +6,7 @@ Kullanıcıları Çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Sunucuda oynayan kullanıcıların isimlerini çekersiniz
 {% endapi-method-description %}
 
 {% api-method-spec %}
