@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/kullanicilar/ip/port" %}
 {% api-method-summary %}
-Kullanıcıları Çekme
+Sunucudaki kullanıcıları çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}

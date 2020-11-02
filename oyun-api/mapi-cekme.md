@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/map/ip/port" %}
 {% api-method-summary %}
-mapi çekme
+Sunucu mapi çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}

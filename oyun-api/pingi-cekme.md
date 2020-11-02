@@ -1,23 +1,19 @@
-# Online Kişi Sayısını Çekme
+# Pingi Çekme
 
-{% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/online/ip/port" %}
+{% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/ping/ip/port" %}
 {% api-method-summary %}
-Sunucu online/maks sayısı çekme
+Sunucu pingi çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Çektiğiniz sunucunun online sayısını ve maksimum sayısını çekersiniz
+Sunucunun pingini çekmeniz
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Online" type="number" required=false %}
-Suncudaki aktif kişi sayısını gösterir
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="Maks" type="number" %}
-Sunucunun maksimum sayısını gösterir
+{% api-method-parameter name="Ping" type="string" %}
+Sunucudaki pingi çekersiniz
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -25,17 +21,17 @@ Sunucunun maksimum sayısını gösterir
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Başarılı şekilde çektiniz
+Başarılı şekilde çektiniz.
 {% endapi-method-response-example-description %}
 
 ```
-{"Maks":"22","Online":"7"}
+{"Ping":"164"}
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Eğer bilgiler yanlışsa veya çekemiyorsa.
+Çekmek istediğiniz sunucu yanlış veya sunucu engelliyor
 {% endapi-method-response-example-description %}
 
 ```
@@ -52,10 +48,10 @@ Eğer bilgiler yanlışsa veya çekemiyorsa.
 let ip = ''//ip 
 let port = ''//port 
 let oyunid = ''
-require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/online/${ip}/${port}`, async function (err, resp, body) { 
+require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/ping/${ip}/${port}`, async function (err, resp, body) { 
 body = JSON.parse(body); 
-console.log("Online Kişi:" + `${body.Online}/${body.Maks}`)
-})
+console.log("Ping:" + `${body.Ping}`) 
+}) 
 ```
 
 
