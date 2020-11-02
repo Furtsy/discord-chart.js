@@ -9,4 +9,5 @@
 * [Sunucu İsmi Çekme](oyun-api/sunucu-ismi-cekme.md)
 * [Mapi Çekme](oyun-api/mapi-cekme.md)
 * [Pingi Çekme](oyun-api/pingi-cekme.md)
+* [Oyun idleri](oyun-api/oyun-idleri.md)
 

@@ -12,7 +12,7 @@ Sunucunun pingini çekmeniz
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Ping" type="string" %}
+{% api-method-parameter name="Ping" type="number" %}
 Sunucudaki pingi çekersiniz
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
