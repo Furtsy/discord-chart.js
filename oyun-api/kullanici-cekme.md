@@ -47,7 +47,7 @@ Sunucu bilgileri yanlış veya engelleniyor
 ```text
 let ip = ''//ip 
 let port = ''//port 
-let oyunid = ''
+let oyunid = ''//https://furtsy.wtf/oyunidler
 require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/kullanicilar/${ip}/${port}`, async function (err, resp, body) { 
 body = JSON.parse(body); 
 console.log("Oyuncular:" + `${body.Oyuncular}`) 

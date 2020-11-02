@@ -47,7 +47,7 @@ Başarılı şekilde çektiniz
 ```text
 let ip = ''//ip 
 let port = ''//port 
-let oyunid = ''
+let oyunid = ''//https://furtsy.wtf/oyunidler
 require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/isim/${ip}/${port}`, async function (err, resp, body) { 
 body = JSON.parse(body); 
 console.log("Sunucu İsmi:" + `${body.Sunucu_İsmi}`) 
