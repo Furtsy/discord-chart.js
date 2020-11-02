@@ -1,19 +1,19 @@
-# Sunucu İsmi Çekme
+# Mapi Çekme
 
-{% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/isim/ip/port" %}
+{% api-method method="get" host="https://furtsy.wtf" path="/api/oyun/oyunid/map/ip/port" %}
 {% api-method-summary %}
-Sunucu ismini çekme
+mapi çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Çektiğiniz sunucunun sunucu ismini çekersiniz
+Sunucuda oynana mapi çekersiniz
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Sunucu\_İsmi" type="string" %}
-Sunucu ismini gösterir
+{% api-method-parameter name="Map" type="string" required=false %}
+Sunucudaki mapi çekersiniz
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -25,13 +25,13 @@ Başarılı şekilde çektiniz
 {% endapi-method-response-example-description %}
 
 ```
-{"Sunucu_İsmi":"isim"}
+{"Map":"map_ismi"}
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Çekmek istediğiniz bilgiler yanlış veya sunucu bilgi çekmeyi engelliyor
+Çekmek istediğiniz sunucu yanlış veya engelliyor
 {% endapi-method-response-example-description %}
 
 ```
@@ -48,9 +48,11 @@ Başarılı şekilde çektiniz
 let ip = ''//ip 
 let port = ''//port 
 let oyunid = ''
-require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/isim/${ip}/${port}`, async function (err, resp, body) { 
+require("request")(`https://furtsy.wtf/api/oyun/${oyunid}/map/${ip}/${port}`, async function (err, resp, body) { 
 body = JSON.parse(body); 
-console.log("Sunucu İsmi:" + `${body.Sunucu_İsmi}`) 
-}) 
+console.log("Map:" + `${body.Map}`)
+})
 ```
+
+
 

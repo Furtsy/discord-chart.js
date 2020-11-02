@@ -7,4 +7,5 @@
 * [Kullanıcı Çekme](oyun-api/kullanici-cekme.md)
 * [Online Kişi Sayısını Çekme](oyun-api/online-kisi-sayisini-cekme.md)
 * [Sunucu İsmi Çekme](oyun-api/sunucu-ismi-cekme.md)
+* [Mapi Çekme](oyun-api/mapi-cekme.md)
 
