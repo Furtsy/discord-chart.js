@@ -1,4 +1,4 @@
 # Selam Hoş geldin!!
 
-İşte kategoriler:
+Burası neden var bilmiyorum
 
