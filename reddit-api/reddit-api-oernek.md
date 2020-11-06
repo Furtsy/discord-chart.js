@@ -6,7 +6,7 @@ Subredditen random post çekme
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Getletiğiniz de alacağınız çıktılar **aşağıda verilmiştir**.Kullanımı için burdan bakabilirsiniz: link
+Getletiğiniz de alacağınız çıktılar **aşağıda verilmiştir**.Kullanımı için burdan bakabilirsiniz: https://docs.furtsy.wtf/reddit-api/reddit-api-temel
 {% endapi-method-description %}
 
 {% api-method-spec %}
