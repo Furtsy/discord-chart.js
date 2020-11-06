@@ -11,3 +11,7 @@
 * [Mapi Çekme](oyun-api/mapi-cekme.md)
 * [Pingi Çekme](oyun-api/pingi-cekme.md)
 
+## Reddit Api
+
+* [Reddit Api Temel](reddit-api/reddit-api-temel.md)
+
