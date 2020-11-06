@@ -2,7 +2,7 @@
 
 ### Genel olarak apinin kullanımı:
 
-**/reddit/sub=:subreddit/tur=:tür/zaman=:zaman/nsfw=:nsfw**  
+\*\*\*\*[**https://furtsy.wtf**](https://furtsy.wtf)**/reddit/sub=:subreddit/tur=:tür/zaman=:zaman/nsfw=:nsfw**  
 bu şekildedir 
 
 | Params | özellikleri |
