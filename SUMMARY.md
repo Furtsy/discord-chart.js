@@ -16,3 +16,7 @@
 * [Reddit Api Temel](reddit-api/reddit-api-temel.md)
 * [Reddit api örnek](reddit-api/reddit-api-oernek.md)
 
+## İp Sorgu Api
+
+* [Örnek Kullanım](ip-sorgu-api/oernek-kullanim.md)
+
