@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Selam Hoş geldin!!](README.md)
+* [Selam Hoş geldin!](README.md)
 
 ## Oyun Api
 

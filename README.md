@@ -1,4 +1,4 @@
-# Selam Hoş geldin!!
+# Selam Hoş geldin!
 
 Burası neden var bilmiyorum
 
